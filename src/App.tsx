@@ -1,15 +1,12 @@
-import { SelectLanguage } from "./components/select-languages";
-import { useLanguage } from "./contexts/LanguageContext";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 const App = () => {
-  const { t } = useLanguage();
   return (
-    <div className="max-w-screen-xl mx-auto h-screen  ">
-      <div className="w-full h-full flex flex-col gap-3 justify-center items-center">
-        <SelectLanguage />
-        <h1 className="text-4xl font-bold  text-center">{t("welcome")}</h1>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

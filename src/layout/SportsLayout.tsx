@@ -1,5 +1,4 @@
 import Sidebar from "@/web-component/Sidebar";
-import React from "react";
 
 const SportsLayout = () => {
   return (

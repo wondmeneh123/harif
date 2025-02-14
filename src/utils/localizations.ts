@@ -122,6 +122,7 @@ const translations = {
     topMatches: "Tapha Gurguddoo",
     matchResult: "Bu'aa Taphaa",
     betslip: "Fula Filannoo",
+    searchPlaceholder: "Maqaa tapha galchi...",
 
     premierLeague: "Ligii Ingiliizii",
     noBets: "Filannoon hin jiraatin",

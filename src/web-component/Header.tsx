@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  FaUserPlus,
-  FaSignInAlt,
   FaComments,
   FaInstagram,
   FaFacebook,

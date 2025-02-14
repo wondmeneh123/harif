@@ -1,10 +1,11 @@
 import { useState } from "react";
-import AllEvents from "./Home/AllEVents";
+
 import DailyEvents from "./Home/DailyEvents";
 import InplayCalendar from "./Home/InplayCalender";
 import Sports from "./Home/Sports";
 import Sidebar from "./Sidebar";
 import Betslip from "./Betslip";
+import AllEvents from "./Home/AllEvents";
 
 const tabs = [
   { name: "sports", label: "Sports", component: <Sports /> },

@@ -12,7 +12,7 @@ import {
 const Betslip: React.FC = () => {
   const { t } = useLanguage();
   const [stake, setStake] = useState<number | string>("");
-  const [betAdded, setBetAdded] = useState(true); // Simulates a selected bet
+  const [betAdded] = useState(true); // Simulates a selected bet
 
   return (
     <aside className="w-72  shadow-md  p-3 border text-xs bg-gray-50">

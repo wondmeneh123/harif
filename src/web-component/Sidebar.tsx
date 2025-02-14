@@ -104,23 +104,17 @@ const Sidebar: React.FC = () => {
       </div>
       {isEsportsOpen && (
         <ul className="divide-y transition-all duration-300">
-          {filteredEsports.length > 0 ? (
-            filteredEsports.map((game) => (
+          {filteredSports.length > 0 ? (
+            filteredSports.map((sport) => (
               <li
-                key={game.name}
-                className="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer"
+                key={sport.name}
+                className="p-2 hover:bg-gray-100 cursor-pointer"
               >
-                <span>
-                  <span className="text-gray-500 text-sm mr-1">
-                    {game.count}
-                  </span>
-                  {t(game.name)}
-                </span>
-                {game.icon}
+                {t(sport.name)}
               </li>
             ))
           ) : (
-            <li className="text-center p-2 text-gray-500">{t("noResults")}</li>
+            <li className="text-gray-500 text-center">{t("noResults")}</li> // ✅ FIXED: Now allowed
           )}
         </ul>
       )}

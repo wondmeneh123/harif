@@ -63,6 +63,7 @@ const translations = {
     share: "Share",
     cancel: "CANCEL",
     placeBet: "PLACE BET",
+    noResults: "No results found",
   },
 
   am: {
@@ -71,6 +72,8 @@ const translations = {
     register: "ለመመዝገብ",
     password: "የይለፍ ቃል",
     liveChat: "ቀጥታ ውይይት",
+
+    noResults: "ምንም ውጤት አልተገኘም",
     selectLanguage: "አማርኛ",
 
     // Navigation
@@ -139,6 +142,7 @@ const translations = {
 
     // Navigation
     sport: "Ispoortii",
+    noResults: "Muudamni hin argamne",
     todaysBet: "Filannoo har'a",
     live: "Sirna Gaba",
     jackpot: "Jackpotii",

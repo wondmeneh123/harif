@@ -105,6 +105,11 @@ const translations = {
     rugbyLeague: "ሩግቢ ሊግ",
     americanFootball: "የአሜሪካ እግር ኳስ",
     handball: "ሀንድቦል",
+    leagueOfLegends: "ሊግ ኦፍ ሌጀንድስ",
+    counterStrike: "ካውንተር ስትራይክ: GO",
+    rainbowSix: "ሬንቦ ስክስ",
+    callOfDuty: "ኮል ኦፍ ዱቲ",
+    dota2: "ዶታ 2",
 
     // Betslip
     betslip: "የውርደት ቅድመምሕረት",
